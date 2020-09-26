@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		5400996E251EABA90031BD2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5400996D251EABA90031BD2D /* AppDelegate.swift */; };
 		54009970251EABA90031BD2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5400996F251EABA90031BD2D /* SceneDelegate.swift */; };
-		54009972251EABA90031BD2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54009971251EABA90031BD2D /* ViewController.swift */; };
+		54009972251EABA90031BD2D /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54009971251EABA90031BD2D /* FirstVC.swift */; };
 		54009975251EABA90031BD2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54009973251EABA90031BD2D /* Main.storyboard */; };
 		54009977251EABAD0031BD2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54009976251EABAD0031BD2D /* Assets.xcassets */; };
 		5400997A251EABAD0031BD2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54009978251EABAD0031BD2D /* LaunchScreen.storyboard */; };
 		54009985251EABAD0031BD2D /* AulaDigitalHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54009984251EABAD0031BD2D /* AulaDigitalHouseTests.swift */; };
 		54009990251EABAD0031BD2D /* AulaDigitalHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5400998F251EABAD0031BD2D /* AulaDigitalHouseUITests.swift */; };
+		540099BE251EC09F0031BD2D /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540099BD251EC09F0031BD2D /* DetalhesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		5400996A251EABA90031BD2D /* AulaDigitalHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AulaDigitalHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5400996D251EABA90031BD2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5400996F251EABA90031BD2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		54009971251EABA90031BD2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54009971251EABA90031BD2D /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		54009974251EABA90031BD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54009976251EABAD0031BD2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54009979251EABAD0031BD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		5400998B251EABAD0031BD2D /* AulaDigitalHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AulaDigitalHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5400998F251EABAD0031BD2D /* AulaDigitalHouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaDigitalHouseUITests.swift; sourceTree = "<group>"; };
 		54009991251EABAD0031BD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540099BD251EC09F0031BD2D /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		5400996C251EABA90031BD2D /* AulaDigitalHouse */ = {
 			isa = PBXGroup;
 			children = (
+				540099C2251EC1320031BD2D /* Views */,
 				5400996D251EABA90031BD2D /* AppDelegate.swift */,
 				5400996F251EABA90031BD2D /* SceneDelegate.swift */,
-				54009971251EABA90031BD2D /* ViewController.swift */,
 				54009973251EABA90031BD2D /* Main.storyboard */,
 				54009976251EABAD0031BD2D /* Assets.xcassets */,
 				54009978251EABAD0031BD2D /* LaunchScreen.storyboard */,
@@ -126,6 +128,15 @@
 				54009991251EABAD0031BD2D /* Info.plist */,
 			);
 			path = AulaDigitalHouseUITests;
+			sourceTree = "<group>";
+		};
+		540099C2251EC1320031BD2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54009971251EABA90031BD2D /* FirstVC.swift */,
+				540099BD251EC09F0031BD2D /* DetalhesViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54009972251EABA90031BD2D /* ViewController.swift in Sources */,
+				540099BE251EC09F0031BD2D /* DetalhesViewController.swift in Sources */,
+				54009972251EABA90031BD2D /* FirstVC.swift in Sources */,
 				5400996E251EABA90031BD2D /* AppDelegate.swift in Sources */,
 				54009970251EABA90031BD2D /* SceneDelegate.swift in Sources */,
 			);

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +29,12 @@ class ViewController: UIViewController {
         
     }
     
-
+    @IBAction func button(_ sender: Any) {
+        self.performSegue(withIdentifier: "cell", sender: nil)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc : DetalhesViewController? = segue.destination as? DetalhesViewController
+        vc?.view.backgroundColor = .purple
+    }
 }
 
