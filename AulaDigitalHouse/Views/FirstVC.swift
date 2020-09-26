@@ -30,11 +30,12 @@ class FirstVC: UIViewController {
     }
     
     @IBAction func button(_ sender: Any) {
-        self.performSegue(withIdentifier: "cell", sender: nil)
+        self.performSegue(withIdentifier: "details", sender: nil)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc : DetalhesViewController? = segue.destination as? DetalhesViewController
         vc?.view.backgroundColor = .purple
+        vc?.myLabel.text = "Catia"
     }
 }
 
