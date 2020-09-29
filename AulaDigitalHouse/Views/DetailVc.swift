@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DetalhesViewController: UIViewController {
+class DetailVC: UIViewController {
 
     @IBOutlet weak var myLabel: UILabel!
     

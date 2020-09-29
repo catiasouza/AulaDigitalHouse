@@ -40,7 +40,6 @@
                                 </state>
                                 <connections>
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jag-iO-n3C"/>
-                                    <segue destination="Pat-Uq-C6a" kind="presentation" identifier="details" id="ZJi-HQ-0AS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -51,52 +50,26 @@
                             <constraint firstItem="XLO-hy-JBB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hmk-wV-BLI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="lhN-cs-Xzh" kind="presentation" identifier="DetailVC" id="TIv-ol-l2N"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-29" y="61"/>
         </scene>
-        <!--Detalhes View Controller-->
-        <scene sceneID="3G2-jw-Tt5">
+        <!--Detail-->
+        <scene sceneID="sct-W8-YIY">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Pat-Uq-C6a" customClass="DetalhesViewController" customModule="AulaDigitalHouse" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="duV-uv-5GG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WfT-bn-7n1">
-                                <rect key="frame" x="30" y="94" width="354" height="66"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="66" id="STa-LR-dlN"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Rmc-kk-u59"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                        <constraints>
-                            <constraint firstItem="WfT-bn-7n1" firstAttribute="top" secondItem="Rmc-kk-u59" secondAttribute="top" constant="50" id="Gqp-bs-sLe"/>
-                            <constraint firstItem="WfT-bn-7n1" firstAttribute="leading" secondItem="Rmc-kk-u59" secondAttribute="leading" constant="30" id="NfY-Kx-ERF"/>
-                            <constraint firstItem="Rmc-kk-u59" firstAttribute="trailing" secondItem="WfT-bn-7n1" secondAttribute="trailing" constant="30" id="aBF-rx-4Sl"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="myLabel" destination="WfT-bn-7n1" id="Vm0-VF-fak"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vcE-pF-Dgp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Detail" id="lhN-cs-Xzh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6vp-gv-SbW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750.72463768115949" y="67.633928571428569"/>
+            <point key="canvasLocation" x="690" y="-71"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
