@@ -15,7 +15,9 @@
 		5400997A251EABAD0031BD2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54009978251EABAD0031BD2D /* LaunchScreen.storyboard */; };
 		54009985251EABAD0031BD2D /* AulaDigitalHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54009984251EABAD0031BD2D /* AulaDigitalHouseTests.swift */; };
 		54009990251EABAD0031BD2D /* AulaDigitalHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5400998F251EABAD0031BD2D /* AulaDigitalHouseUITests.swift */; };
-		540099BE251EC09F0031BD2D /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540099BD251EC09F0031BD2D /* DetalhesViewController.swift */; };
+		540099BE251EC09F0031BD2D /* DetailVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540099BD251EC09F0031BD2D /* DetailVc.swift */; };
+		540099CA251EC4B80031BD2D /* SecondFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540099C9251EC4B80031BD2D /* SecondFirstVC.swift */; };
+		540099ED25229AED0031BD2D /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540099EC25229AED0031BD2D /* Detail.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +52,9 @@
 		5400998B251EABAD0031BD2D /* AulaDigitalHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AulaDigitalHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5400998F251EABAD0031BD2D /* AulaDigitalHouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaDigitalHouseUITests.swift; sourceTree = "<group>"; };
 		54009991251EABAD0031BD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		540099BD251EC09F0031BD2D /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
+		540099BD251EC09F0031BD2D /* DetailVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVc.swift; sourceTree = "<group>"; };
+		540099C9251EC4B80031BD2D /* SecondFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFirstVC.swift; sourceTree = "<group>"; };
+		540099EC25229AED0031BD2D /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 				5400996D251EABA90031BD2D /* AppDelegate.swift */,
 				5400996F251EABA90031BD2D /* SceneDelegate.swift */,
 				54009973251EABA90031BD2D /* Main.storyboard */,
+				540099EC25229AED0031BD2D /* Detail.storyboard */,
 				54009976251EABAD0031BD2D /* Assets.xcassets */,
 				54009978251EABAD0031BD2D /* LaunchScreen.storyboard */,
 				5400997B251EABAD0031BD2D /* Info.plist */,
@@ -134,7 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				54009971251EABA90031BD2D /* FirstVC.swift */,
-				540099BD251EC09F0031BD2D /* DetalhesViewController.swift */,
+				540099BD251EC09F0031BD2D /* DetailVc.swift */,
+				540099C9251EC4B80031BD2D /* SecondFirstVC.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -245,6 +251,7 @@
 				5400997A251EABAD0031BD2D /* LaunchScreen.storyboard in Resources */,
 				54009977251EABAD0031BD2D /* Assets.xcassets in Resources */,
 				54009975251EABA90031BD2D /* Main.storyboard in Resources */,
+				540099ED25229AED0031BD2D /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				540099BE251EC09F0031BD2D /* DetalhesViewController.swift in Sources */,
+				540099BE251EC09F0031BD2D /* DetailVc.swift in Sources */,
+				540099CA251EC4B80031BD2D /* SecondFirstVC.swift in Sources */,
 				54009972251EABA90031BD2D /* FirstVC.swift in Sources */,
 				5400996E251EABA90031BD2D /* AppDelegate.swift in Sources */,
 				54009970251EABA90031BD2D /* SceneDelegate.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  DetalhesViewController.swift
+//  SecondFirstVC.swift
 //  AulaDigitalHouse
 //
 //  Created by Cátia Souza on 25/09/20.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DetalhesViewController: UIViewController {
+class SecondFirstVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
